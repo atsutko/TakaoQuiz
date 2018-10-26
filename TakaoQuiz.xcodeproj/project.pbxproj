@@ -7,21 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8824DEC59A025422B47B4D66 /* Pods_TakaoQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CB83FFA0E2F4803174F3F0 /* Pods_TakaoQuiz.framework */; };
 		C15DB0D51FBC2B4D0096A411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15DB0D41FBC2B4D0096A411 /* AppDelegate.swift */; };
 		C15DB0D71FBC2B4D0096A411 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15DB0D61FBC2B4D0096A411 /* ViewController.swift */; };
 		C15DB0DA1FBC2B4D0096A411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15DB0D81FBC2B4D0096A411 /* Main.storyboard */; };
 		C15DB0DC1FBC2B4D0096A411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15DB0DB1FBC2B4D0096A411 /* Assets.xcassets */; };
-		C15DB0DF1FBC2B4D0096A411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15DB0DD1FBC2B4D0096A411 /* LaunchScreen.storyboard */; };
+		C15DB0E71FBC2B7F0096A411 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15DB0E61FBC2B7F0096A411 /* Quiz.swift */; };
+		C15DB0E91FBC39190096A411 /* Button（新規登録）.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB0E81FBC39190096A411 /* Button（新規登録）.png */; };
+		C15DB0EB1FBC39250096A411 /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C15DB0EA1FBC39240096A411 /* Billabong.ttf */; };
+		C15DB0EF1FBC3B890096A411 /* メモの無料アイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB0EE1FBC3B890096A411 /* メモの無料アイコン.png */; };
+		C15DB0F11FBC3B910096A411 /* 枠つきの羽根ペンのアイコン素材 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB0F01FBC3B910096A411 /* 枠つきの羽根ペンのアイコン素材 (1).png */; };
+		C15DB0F31FBC3CD90096A411 /* ビジネスマン風のヒューマンアイコン素材.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB0F21FBC3CD90096A411 /* ビジネスマン風のヒューマンアイコン素材.png */; };
+		C15DB0F91FBC733C0096A411 /* batsu.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB0F71FBC733B0096A411 /* batsu.png */; };
+		C15DB0FB1FBC79D50096A411 /* Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB0FA1FBC79D50096A411 /* Circle.png */; };
+		C15DB1441FBC7E960096A411 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB10C1FBC7E960096A411 /* iTunesArtwork@1x.png */; };
+		C15DB1451FBC7E960096A411 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB10E1FBC7E960096A411 /* Icon-App-57x57@1x.png */; };
+		C15DB1461FBC7E960096A411 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB10F1FBC7E960096A411 /* Icon-App-76x76@2x.png */; };
+		C15DB1471FBC7E960096A411 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1101FBC7E960096A411 /* Icon-App-29x29@1x.png */; };
+		C15DB1481FBC7E960096A411 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1111FBC7E960096A411 /* Icon-App-60x60@1x.png */; };
+		C15DB1491FBC7E960096A411 /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1121FBC7E960096A411 /* Icon-Small-50x50@2x.png */; };
+		C15DB14A1FBC7E960096A411 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1131FBC7E960096A411 /* Icon-App-40x40@1x.png */; };
+		C15DB14B1FBC7E960096A411 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1141FBC7E960096A411 /* Icon-App-76x76@3x.png */; };
+		C15DB14C1FBC7E960096A411 /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1151FBC7E960096A411 /* Icon-App-72x72@1x.png */; };
+		C15DB14D1FBC7E960096A411 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1161FBC7E960096A411 /* Icon-App-20x20@1x.png */; };
+		C15DB14E1FBC7E960096A411 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1171FBC7E960096A411 /* Icon-App-83.5x83.5@2x.png */; };
+		C15DB14F1FBC7E960096A411 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1181FBC7E960096A411 /* Icon-App-20x20@3x.png */; };
+		C15DB1501FBC7E960096A411 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1191FBC7E960096A411 /* ItunesArtwork@2x.png */; };
+		C15DB1511FBC7E960096A411 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = C15DB11A1FBC7E960096A411 /* Contents.json */; };
+		C15DB1521FBC7E960096A411 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB11B1FBC7E960096A411 /* Icon-App-20x20@2x.png */; };
+		C15DB1531FBC7E960096A411 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB11C1FBC7E960096A411 /* Icon-App-29x29@3x.png */; };
+		C15DB1541FBC7E960096A411 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB11D1FBC7E960096A411 /* Icon-App-40x40@2x.png */; };
+		C15DB1551FBC7E960096A411 /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB11E1FBC7E960096A411 /* Icon-App-72x72@2x.png */; };
+		C15DB1561FBC7E960096A411 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB11F1FBC7E960096A411 /* Icon-App-60x60@3x.png */; };
+		C15DB1571FBC7E960096A411 /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1201FBC7E960096A411 /* Icon-Small-50x50@1x.png */; };
+		C15DB1581FBC7E960096A411 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1211FBC7E960096A411 /* Icon-App-60x60@2x.png */; };
+		C15DB1591FBC7E960096A411 /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1221FBC7E960096A411 /* Icon-App-57x57@2x.png */; };
+		C15DB15A1FBC7E960096A411 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1231FBC7E960096A411 /* Icon-App-76x76@1x.png */; };
+		C15DB15B1FBC7E960096A411 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1241FBC7E960096A411 /* Icon-App-40x40@3x.png */; };
+		C15DB15C1FBC7E960096A411 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1251FBC7E960096A411 /* Icon-App-29x29@2x.png */; };
+		C15DB15D1FBC7E960096A411 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1261FBC7E960096A411 /* README.md */; };
+		C15DB15F1FBC7E960096A411 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1281FBC7E960096A411 /* iTunesArtwork@3x.png */; };
+		C15DB1741FBC80780096A411 /* 3.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15DB1731FBC80780096A411 /* 3.5inch.storyboard */; };
+		C1A589C22170C1010056C2A8 /* NCMBKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A589C12170C1010056C2A8 /* NCMBKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		065F7B372062C52B5A2CE75A /* Pods-TakaoQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakaoQuiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakaoQuiz/Pods-TakaoQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		34CB83FFA0E2F4803174F3F0 /* Pods_TakaoQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakaoQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15DB0D11FBC2B4D0096A411 /* TakaoQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakaoQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15DB0D41FBC2B4D0096A411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C15DB0D61FBC2B4D0096A411 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C15DB0D91FBC2B4D0096A411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C15DB0DB1FBC2B4D0096A411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C15DB0DE1FBC2B4D0096A411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C15DB0E01FBC2B4D0096A411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C15DB0E61FBC2B7F0096A411 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		C15DB0E81FBC39190096A411 /* Button（新規登録）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button（新規登録）.png"; sourceTree = "<group>"; };
+		C15DB0EA1FBC39240096A411 /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Billabong.ttf; sourceTree = "<group>"; };
+		C15DB0EE1FBC3B890096A411 /* メモの無料アイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "メモの無料アイコン.png"; sourceTree = "<group>"; };
+		C15DB0F01FBC3B910096A411 /* 枠つきの羽根ペンのアイコン素材 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "枠つきの羽根ペンのアイコン素材 (1).png"; sourceTree = "<group>"; };
+		C15DB0F21FBC3CD90096A411 /* ビジネスマン風のヒューマンアイコン素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ビジネスマン風のヒューマンアイコン素材.png"; sourceTree = "<group>"; };
+		C15DB0F71FBC733B0096A411 /* batsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batsu.png; sourceTree = "<group>"; };
+		C15DB0FA1FBC79D50096A411 /* Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle.png; sourceTree = "<group>"; };
+		C15DB10C1FBC7E960096A411 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		C15DB10E1FBC7E960096A411 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		C15DB10F1FBC7E960096A411 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		C15DB1101FBC7E960096A411 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		C15DB1111FBC7E960096A411 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		C15DB1121FBC7E960096A411 /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		C15DB1131FBC7E960096A411 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		C15DB1141FBC7E960096A411 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		C15DB1151FBC7E960096A411 /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		C15DB1161FBC7E960096A411 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		C15DB1171FBC7E960096A411 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		C15DB1181FBC7E960096A411 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		C15DB1191FBC7E960096A411 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		C15DB11A1FBC7E960096A411 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		C15DB11B1FBC7E960096A411 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		C15DB11C1FBC7E960096A411 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		C15DB11D1FBC7E960096A411 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		C15DB11E1FBC7E960096A411 /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		C15DB11F1FBC7E960096A411 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		C15DB1201FBC7E960096A411 /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		C15DB1211FBC7E960096A411 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		C15DB1221FBC7E960096A411 /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		C15DB1231FBC7E960096A411 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		C15DB1241FBC7E960096A411 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		C15DB1251FBC7E960096A411 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		C15DB1261FBC7E960096A411 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C15DB1281FBC7E960096A411 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		C15DB1731FBC80780096A411 /* 3.5inch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = 3.5inch.storyboard; sourceTree = "<group>"; };
+		C1A589C12170C1010056C2A8 /* NCMBKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCMBKey.swift; sourceTree = "<group>"; };
+		C1A589C32170C13E0056C2A8 /* TakaoQuiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TakaoQuiz.entitlements; sourceTree = "<group>"; };
+		F3F07B57828F5AC33404004F /* Pods-TakaoQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakaoQuiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakaoQuiz/Pods-TakaoQuiz.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +106,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8824DEC59A025422B47B4D66 /* Pods_TakaoQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BF016DFE83447A386FAAB3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34CB83FFA0E2F4803174F3F0 /* Pods_TakaoQuiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A63F670F75758431F627AECB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3F07B57828F5AC33404004F /* Pods-TakaoQuiz.debug.xcconfig */,
+				065F7B372062C52B5A2CE75A /* Pods-TakaoQuiz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C15DB0C81FBC2B4D0096A411 = {
 			isa = PBXGroup;
 			children = (
 				C15DB0D31FBC2B4D0096A411 /* TakaoQuiz */,
 				C15DB0D21FBC2B4D0096A411 /* Products */,
+				A63F670F75758431F627AECB /* Pods */,
+				6BF016DFE83447A386FAAB3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +151,91 @@
 		C15DB0D31FBC2B4D0096A411 /* TakaoQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				C1A589C32170C13E0056C2A8 /* TakaoQuiz.entitlements */,
+				C15DB10A1FBC7E960096A411 /* QuizIcon */,
+				C15DB0EC1FBC3A900096A411 /* Font */,
+				C15DB0ED1FBC3A9B0096A411 /* Image */,
 				C15DB0D41FBC2B4D0096A411 /* AppDelegate.swift */,
+				C1A589C12170C1010056C2A8 /* NCMBKey.swift */,
 				C15DB0D61FBC2B4D0096A411 /* ViewController.swift */,
+				C15DB0E61FBC2B7F0096A411 /* Quiz.swift */,
 				C15DB0D81FBC2B4D0096A411 /* Main.storyboard */,
+				C15DB1731FBC80780096A411 /* 3.5inch.storyboard */,
 				C15DB0DB1FBC2B4D0096A411 /* Assets.xcassets */,
-				C15DB0DD1FBC2B4D0096A411 /* LaunchScreen.storyboard */,
 				C15DB0E01FBC2B4D0096A411 /* Info.plist */,
 			);
 			path = TakaoQuiz;
+			sourceTree = "<group>";
+		};
+		C15DB0EC1FBC3A900096A411 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C15DB0EA1FBC39240096A411 /* Billabong.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		C15DB0ED1FBC3A9B0096A411 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C15DB0F71FBC733B0096A411 /* batsu.png */,
+				C15DB0FA1FBC79D50096A411 /* Circle.png */,
+				C15DB0E81FBC39190096A411 /* Button（新規登録）.png */,
+				C15DB0EE1FBC3B890096A411 /* メモの無料アイコン.png */,
+				C15DB0F01FBC3B910096A411 /* 枠つきの羽根ペンのアイコン素材 (1).png */,
+				C15DB0F21FBC3CD90096A411 /* ビジネスマン風のヒューマンアイコン素材.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		C15DB10A1FBC7E960096A411 /* QuizIcon */ = {
+			isa = PBXGroup;
+			children = (
+				C15DB10B1FBC7E960096A411 /* ios */,
+			);
+			path = QuizIcon;
+			sourceTree = "<group>";
+		};
+		C15DB10B1FBC7E960096A411 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				C15DB10C1FBC7E960096A411 /* iTunesArtwork@1x.png */,
+				C15DB10D1FBC7E960096A411 /* AppIcon.appiconset */,
+				C15DB1261FBC7E960096A411 /* README.md */,
+				C15DB1281FBC7E960096A411 /* iTunesArtwork@3x.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		C15DB10D1FBC7E960096A411 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				C15DB10E1FBC7E960096A411 /* Icon-App-57x57@1x.png */,
+				C15DB10F1FBC7E960096A411 /* Icon-App-76x76@2x.png */,
+				C15DB1101FBC7E960096A411 /* Icon-App-29x29@1x.png */,
+				C15DB1111FBC7E960096A411 /* Icon-App-60x60@1x.png */,
+				C15DB1121FBC7E960096A411 /* Icon-Small-50x50@2x.png */,
+				C15DB1131FBC7E960096A411 /* Icon-App-40x40@1x.png */,
+				C15DB1141FBC7E960096A411 /* Icon-App-76x76@3x.png */,
+				C15DB1151FBC7E960096A411 /* Icon-App-72x72@1x.png */,
+				C15DB1161FBC7E960096A411 /* Icon-App-20x20@1x.png */,
+				C15DB1171FBC7E960096A411 /* Icon-App-83.5x83.5@2x.png */,
+				C15DB1181FBC7E960096A411 /* Icon-App-20x20@3x.png */,
+				C15DB1191FBC7E960096A411 /* ItunesArtwork@2x.png */,
+				C15DB11A1FBC7E960096A411 /* Contents.json */,
+				C15DB11B1FBC7E960096A411 /* Icon-App-20x20@2x.png */,
+				C15DB11C1FBC7E960096A411 /* Icon-App-29x29@3x.png */,
+				C15DB11D1FBC7E960096A411 /* Icon-App-40x40@2x.png */,
+				C15DB11E1FBC7E960096A411 /* Icon-App-72x72@2x.png */,
+				C15DB11F1FBC7E960096A411 /* Icon-App-60x60@3x.png */,
+				C15DB1201FBC7E960096A411 /* Icon-Small-50x50@1x.png */,
+				C15DB1211FBC7E960096A411 /* Icon-App-60x60@2x.png */,
+				C15DB1221FBC7E960096A411 /* Icon-App-57x57@2x.png */,
+				C15DB1231FBC7E960096A411 /* Icon-App-76x76@1x.png */,
+				C15DB1241FBC7E960096A411 /* Icon-App-40x40@3x.png */,
+				C15DB1251FBC7E960096A411 /* Icon-App-29x29@2x.png */,
+			);
+			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C15DB0E31FBC2B4D0096A411 /* Build configuration list for PBXNativeTarget "TakaoQuiz" */;
 			buildPhases = (
+				F839CEEE08A3D6BB6140044D /* [CP] Check Pods Manifest.lock */,
 				C15DB0CD1FBC2B4D0096A411 /* Sources */,
 				C15DB0CE1FBC2B4D0096A411 /* Frameworks */,
 				C15DB0CF1FBC2B4D0096A411 /* Resources */,
+				D9BC74529A1AFEECD756077D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,7 +272,12 @@
 				TargetAttributes = {
 					C15DB0D01FBC2B4D0096A411 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,21 +304,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C15DB0DF1FBC2B4D0096A411 /* LaunchScreen.storyboard in Resources */,
+				C15DB0E91FBC39190096A411 /* Button（新規登録）.png in Resources */,
+				C15DB1481FBC7E960096A411 /* Icon-App-60x60@1x.png in Resources */,
+				C15DB0FB1FBC79D50096A411 /* Circle.png in Resources */,
+				C15DB1471FBC7E960096A411 /* Icon-App-29x29@1x.png in Resources */,
+				C15DB1461FBC7E960096A411 /* Icon-App-76x76@2x.png in Resources */,
+				C15DB14A1FBC7E960096A411 /* Icon-App-40x40@1x.png in Resources */,
+				C15DB1441FBC7E960096A411 /* iTunesArtwork@1x.png in Resources */,
+				C15DB14C1FBC7E960096A411 /* Icon-App-72x72@1x.png in Resources */,
+				C15DB1521FBC7E960096A411 /* Icon-App-20x20@2x.png in Resources */,
+				C15DB1571FBC7E960096A411 /* Icon-Small-50x50@1x.png in Resources */,
+				C15DB1561FBC7E960096A411 /* Icon-App-60x60@3x.png in Resources */,
+				C15DB14E1FBC7E960096A411 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				C15DB14D1FBC7E960096A411 /* Icon-App-20x20@1x.png in Resources */,
+				C15DB0EF1FBC3B890096A411 /* メモの無料アイコン.png in Resources */,
+				C15DB1511FBC7E960096A411 /* Contents.json in Resources */,
+				C15DB15B1FBC7E960096A411 /* Icon-App-40x40@3x.png in Resources */,
+				C15DB1741FBC80780096A411 /* 3.5inch.storyboard in Resources */,
+				C15DB0F11FBC3B910096A411 /* 枠つきの羽根ペンのアイコン素材 (1).png in Resources */,
+				C15DB1491FBC7E960096A411 /* Icon-Small-50x50@2x.png in Resources */,
+				C15DB1581FBC7E960096A411 /* Icon-App-60x60@2x.png in Resources */,
+				C15DB15C1FBC7E960096A411 /* Icon-App-29x29@2x.png in Resources */,
+				C15DB1591FBC7E960096A411 /* Icon-App-57x57@2x.png in Resources */,
+				C15DB0F31FBC3CD90096A411 /* ビジネスマン風のヒューマンアイコン素材.png in Resources */,
+				C15DB0F91FBC733C0096A411 /* batsu.png in Resources */,
 				C15DB0DC1FBC2B4D0096A411 /* Assets.xcassets in Resources */,
+				C15DB1551FBC7E960096A411 /* Icon-App-72x72@2x.png in Resources */,
+				C15DB0EB1FBC39250096A411 /* Billabong.ttf in Resources */,
+				C15DB14B1FBC7E960096A411 /* Icon-App-76x76@3x.png in Resources */,
+				C15DB1501FBC7E960096A411 /* ItunesArtwork@2x.png in Resources */,
+				C15DB1541FBC7E960096A411 /* Icon-App-40x40@2x.png in Resources */,
+				C15DB1531FBC7E960096A411 /* Icon-App-29x29@3x.png in Resources */,
+				C15DB15A1FBC7E960096A411 /* Icon-App-76x76@1x.png in Resources */,
+				C15DB1451FBC7E960096A411 /* Icon-App-57x57@1x.png in Resources */,
+				C15DB14F1FBC7E960096A411 /* Icon-App-20x20@3x.png in Resources */,
+				C15DB15F1FBC7E960096A411 /* iTunesArtwork@3x.png in Resources */,
 				C15DB0DA1FBC2B4D0096A411 /* Main.storyboard in Resources */,
+				C15DB15D1FBC7E960096A411 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9BC74529A1AFEECD756077D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TakaoQuiz/Pods-TakaoQuiz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakaoQuiz/Pods-TakaoQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F839CEEE08A3D6BB6140044D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TakaoQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C15DB0CD1FBC2B4D0096A411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A589C22170C1010056C2A8 /* NCMBKey.swift in Sources */,
 				C15DB0D71FBC2B4D0096A411 /* ViewController.swift in Sources */,
 				C15DB0D51FBC2B4D0096A411 /* AppDelegate.swift in Sources */,
+				C15DB0E71FBC2B7F0096A411 /* Quiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,14 +408,6 @@
 				C15DB0D91FBC2B4D0096A411 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C15DB0DD1FBC2B4D0096A411 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C15DB0DE1FBC2B4D0096A411 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -272,14 +522,20 @@
 		};
 		C15DB0E41FBC2B4D0096A411 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F07B57828F5AC33404004F /* Pods-TakaoQuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = TakaoQuiz/TakaoQuiz.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3E76788VZ5;
 				INFOPLIST_FILE = TakaoQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TakaoAtsushi.TakaoQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = TakaoQuiz_dev;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +543,20 @@
 		};
 		C15DB0E51FBC2B4D0096A411 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065F7B372062C52B5A2CE75A /* Pods-TakaoQuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = TakaoQuiz/TakaoQuiz.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3E76788VZ5;
 				INFOPLIST_FILE = TakaoQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TakaoAtsushi.TakaoQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = TakaoQuiz_dev;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
